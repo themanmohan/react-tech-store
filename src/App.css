@@ -24,3 +24,23 @@ body{
   font-family: 'Grenze Gotisch',cursive;
   background: var(--mainGray) !important;
 }
+
+
+.main-link{
+  padding: 0.5rem 1rem;
+  background: var(--primaryColor);
+  color:var(--mainWhite);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--mainWhite);
+  outline-offset: 2px;
+  text-decoration: none;
+}
+
+.main-link:hover{
+  background: var(--darkGray);
+  text-decoration: none;
+  color: var(--primaryColor);
+  outline-color: var(--darkGray);
+}
