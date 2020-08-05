@@ -23,6 +23,7 @@ text-main{
 body{
   font-family: 'Grenze Gotisch',cursive;
   background: var(--mainGray) !important;
+  color:black !important;
 }
 
 

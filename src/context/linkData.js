@@ -9,15 +9,15 @@ export const linkData=[{
     path: '/about'
 },
 {
-    id: 1,
+    id: 3,
     text: 'product',
     path: '/product'
 }, {
-    id: 1,
+    id: 4,
     text: 'contact',
     path: '/contact'
 }, {
-    id: 1,
+    id: 5,
     text: 'cart',
     path: '/cart'
 },

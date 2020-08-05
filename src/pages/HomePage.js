@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../component/Hero'
 import mainBc from '../image/defaultBcg.jpeg';
 import {Link} from 'react-router-dom'
+import Services from '../component/HomePage/Services';
+import Featured from '../component/HomePage/Featured';
 export default function HomePage(){
     return(
         <>
@@ -10,8 +12,8 @@ export default function HomePage(){
              
             style={{margin:'2rem'}} >Our Product</Link>
           </Hero>
-       
-            <h3>HHLO from Hlo from home page</h3>
+              <Services />
+               <Featured />
         </>
     );
 }
