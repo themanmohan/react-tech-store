@@ -75,7 +75,7 @@ export default function ProductFilter(){
                                 <div>
                                 <label  htmlFor="shipping" className="mt-5"
                                 >Shipping</label>
-                                <input type="checkbox" name="shipping" id="shipping" id="shipping"
+                                <input type="checkbox" name="shipping" id="shipping" 
                                 onChange={handleChange} checked={shipping && true} className="filter-item"
                                 >
                                 </input>

@@ -12,7 +12,7 @@ export default function Navbar(){
               return <NavWrapper>
               <div className="nav-center">
                   <FaBars className="nav-icon" onClick={handleSidebar} />
-                  <img src={logo} />
+                  <img src={logo}  alt="logo"/>
                   <div className="nav-cart">
                    <FaCartPlus className="nav-icon" onClick={handleCart} />
                   <div className="cart-items">{cartItem}</div>

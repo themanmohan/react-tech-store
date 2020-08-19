@@ -6,7 +6,7 @@ export  default function CartItem({CartItem,increament,decreament,removeItem}){
     <div className="row mt-5 mt-lg-0 text-capitalize text-center align-item-center ">
      {/* image */}
      <div className="col-10 mx-auto col-lg-2 pb-2">
-         <img src={`../${image}`} alt={title} width="60" />
+         <img src={image} alt={title} width="60" />
      </div>
      {/* image end */}
      {/* title */}

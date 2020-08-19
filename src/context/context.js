@@ -3,7 +3,7 @@ import {linkData} from './linkData';
 import {socialData} from './socialData'
 // import {items} from './productData';
 import {client} from './contentful'
-import { FaThinkPeaks } from 'react-icons/fa';
+
 const ProductContext=React.createContext();
 class ProductProvider extends Component{
 
@@ -22,7 +22,7 @@ class ProductProvider extends Component{
     featuredProduct:[],
     singleProduct:[],
     loading:false,
-    search:0,
+    search:'',
     price:0,
     main:0,
     max:0,
@@ -296,8 +296,9 @@ setSingleProduct=(id)=>{
       console.log(tempTitile)
       if(tempSearch===tempTitile){
            return item
-           console.log(item)
+           
       }
+      
            
     })
   }

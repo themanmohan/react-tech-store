@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../component/Hero'
-import mainBc from '../image/defaultBcg.jpeg';
 import {Link} from 'react-router-dom'
 import Services from '../component/HomePage/Services';
 import Featured from '../component/HomePage/Featured';
